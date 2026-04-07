@@ -7,7 +7,7 @@ services:
     container_name: rocket-gateway
     restart: unless-stopped
     ports:
-      - "8085:80"
+      - "4760:80"
     networks:
       rocket-alpha-net:
         aliases:
